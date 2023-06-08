@@ -1,3 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Barlow:wght@600&family=Commissioner:wght@400;500;700&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Fugaz+One&family=Hanken+Grotesk:wght@500&family=League+Spartan&family=Montserrat:wght@100&family=Nunito:wght@200&family=Outfit&family=Overpass:wght@100;300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    .btn-download{
+        @apply  active:opacity-80
+                 text-white font-semibold px-8 py-3 border rounded-full
+    }
+}
+
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--ff);
+}
+
+:root{
+
+  /*---------------- COLOR ----------------*/
+  --c-Strong-Cyan: #26baa4;
+  --c-Light-Blue: #6173ff;
+
+  --c-Dark-Grayish-Blue: #4c545d;
+  --c-Grayish-Blue: #9fabb2;
+
+  /*---------------- FONT FAMILY ----------------*/
+  --ff:'Bai Jamjuree', sans-serif;
+
+    /*---------------- FONT SIZE ----------------*/
+  --fs:18px;
+
+    /*---------------- FONT WEIGHT ----------------*/
+  --fw-s:400;
+  --fw-m:600;
+
+}
