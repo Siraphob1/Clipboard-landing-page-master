@@ -9,8 +9,8 @@
 
 @layer components {
     .btn-download{
-      @apply  active:opacity-80
-                 text-white font-semibold px-8 py-3 border rounded-full
+      @apply    active:opacity-80
+                 text-white font-semibold px-8 py-3 border rounded-full drop-shadow-2xl
     }
     .title-cardB{
       @apply text-[1.5rem] text-[#4c545d] font-semibold py-[0.5rem]
@@ -35,6 +35,18 @@
       @apply lg:mb-0 lg:py-[1rem] lg:w-[380px]
               mb-[3rem] px-4  flex flex-col items-center
     }
+    .text-footer{
+      @apply  py-[0.8rem] text-[#4c545d]
+              lg:py-[0.5rem] 
+              active:opacity-50
+              hover:cursor-pointer
+    }
+    .icon-footer{
+      @apply  px-[1rem] py-[2rem]
+              active:opacity-50
+              hover:cursor-pointer
+              
+    }
     
 }
 
@@ -58,7 +70,7 @@
 
   --c-Dark-Grayish-Blue: #4c545d;
   --c-Grayish-Blue: #9fabb2;
-
+  --c-Grayish-Blue: #9fabb217;
   /*---------------- FONT FAMILY ----------------*/
   --ff:'Bai Jamjuree', sans-serif;
 
