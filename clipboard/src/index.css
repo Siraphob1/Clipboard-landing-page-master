@@ -9,9 +9,33 @@
 
 @layer components {
     .btn-download{
-        @apply  active:opacity-80
+      @apply  active:opacity-80
                  text-white font-semibold px-8 py-3 border rounded-full
     }
+    .title-cardB{
+      @apply text-[1.5rem] text-[#4c545d] font-semibold py-[0.5rem]
+    }
+    .paragraph-cardB{
+      @apply lg:pr-[14rem]
+                text-[#9fabb2]
+    }
+    .section-cardB{
+      @apply lg:mb-0 lg:py-[1rem]
+              mb-[2rem] px-4 
+    }
+
+    .title-cardC{
+      @apply text-[1.5rem] text-[#4c545d] text-center font-semibold pt-[2rem] pb-[1rem]
+    }
+    .paragraph-cardC{
+      @apply  
+              text-[#9fabb2] text-center
+    }
+    .section-cardC{
+      @apply lg:mb-0 lg:py-[1rem] lg:w-[380px]
+              mb-[3rem] px-4  flex flex-col items-center
+    }
+    
 }
 
 
