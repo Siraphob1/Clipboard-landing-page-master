@@ -7,9 +7,9 @@ const CardAComponent = (props) => {
 
     
   return (
-    <div className='text-center border'>
+    <div className='text-center '>
         <h1 className={` text-[#4c545d] ${classtitle} font-semibold mb-4 `}>{title}</h1>
-        <p className={` text-[#9fabb2] ${classparagraph}  border`}>{paragraph}</p>
+        <p className={` text-[#9fabb2] ${classparagraph}`}>{paragraph}</p>
     </div>
   )
 }
